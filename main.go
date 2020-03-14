@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	version := "v1.0.0"
+	version := "v2.0.0"
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		log.Printf("Serving request: %s", r.URL.Path)
